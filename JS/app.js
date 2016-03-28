@@ -11,6 +11,13 @@ console.log(text);
 
 })
 
+//submit button
+$("#submitButton").click(function() {
+  console.log("submitButton");
+  console.log($("#minutes")[0].value);
+  counter = $("#minutes")[0].value * 60;
+})
+
 //loop start
 $("#startButton").click(function() {
   console.log("start");
